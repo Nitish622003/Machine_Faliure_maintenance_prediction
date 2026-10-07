@@ -1,0 +1,58 @@
+[
+  {
+    "document_id": "KB_ACTUATOR_001",
+    "title": "Industrial Robot — Actuator Degradation",
+    "machine_type": "Industrial_Robot",
+    "fault": "ACTUATOR_DEGRADATION",
+    "content": "Actuator degradation in an industrial robot can reduce positioning accuracy, responsiveness, and repeatability. Inspect actuator assemblies for abnormal wear, backlash, unusual noise, overheating, or reduced response. Verify motor current, feedback signals, gear or transmission condition, and controller alarms. If degradation is progressing, schedule an inspection before production quality is affected. If severe loss of control or unsafe motion is detected, stop the machine according to site safety procedures and escalate to maintenance."
+  },
+  {
+    "document_id": "KB_BEARING_001",
+    "title": "Rotating Equipment — Bearing Wear",
+    "machine_type": "General_Rotating_Equipment",
+    "fault": "BEARING_WEAR",
+    "content": "Bearing wear commonly appears as increasing vibration, temperature rise, acoustic changes, or abnormal rotational behavior. Inspect bearing condition, lubrication, shaft alignment, and mounting. Compare vibration and temperature against normal operating ranges. Increasing vibration with declining RUL should increase maintenance urgency. Severe temperature or vibration conditions require immediate operator attention and maintenance escalation."
+  },
+  {
+    "document_id": "KB_THERMAL_001",
+    "title": "Industrial Equipment — Thermal Overload",
+    "machine_type": "General_Industrial_Machine",
+    "fault": "THERMAL_OVERLOAD",
+    "content": "Thermal overload indicates that equipment temperature is above its expected operating condition. Check cooling systems, airflow, heat exchangers, fans, coolant levels, ambient conditions, and excessive mechanical load. Confirm temperature sensor validity before maintenance decisions. Persistent overheating can accelerate component degradation. If temperature continues to rise toward unsafe limits, follow shutdown and escalation procedures."
+  },
+  {
+    "document_id": "KB_PRESSURE_001",
+    "title": "Process Equipment — Pressure Anomaly",
+    "machine_type": "General_Process_Equipment",
+    "fault": "PRESSURE_ANOMALY",
+    "content": "Pressure anomalies can result from blocked lines, leaks, valve problems, pump performance changes, sensor faults, or abnormal process conditions. Verify pressure readings against redundant or reference measurements where available. Inspect valves, seals, filters, pipes, and connected process equipment. A rapidly worsening pressure anomaly should be escalated because it may affect safe operation."
+  },
+  {
+    "document_id": "KB_ELECTRICAL_001",
+    "title": "Industrial Equipment — Electrical Overload",
+    "machine_type": "General_Industrial_Machine",
+    "fault": "ELECTRICAL_OVERLOAD",
+    "content": "Electrical overload may be associated with excessive current, motor loading, insulation problems, supply issues, or mechanical resistance. Inspect current draw, motor load, connections, protection devices, and relevant electrical components. Check whether current increases consistently with load or appears unexpectedly. Persistent overload should be investigated promptly; abnormal electrical conditions should be handled by qualified personnel."
+  },
+  {
+    "document_id": "KB_VIBRATION_001",
+    "title": "Industrial Equipment — Excessive Vibration",
+    "machine_type": "General_Rotating_Equipment",
+    "fault": "VIBRATION_ANOMALY",
+    "content": "Excessive vibration can indicate imbalance, misalignment, looseness, bearing degradation, coupling problems, or structural issues. Compare vibration against the machine's normal baseline and inspect mechanical connections, alignment, bearings, and rotating components. Increasing vibration combined with falling RUL is a strong reason to prioritize inspection."
+  },
+  {
+    "document_id": "KB_LUBRICATION_001",
+    "title": "Industrial Equipment — Lubrication Degradation",
+    "machine_type": "General_Industrial_Machine",
+    "fault": "LUBRICATION_DEGRADATION",
+    "content": "Lubrication degradation can increase friction, heat, wear, and vibration. Check lubricant level, contamination, viscosity condition, leaks, and lubrication intervals. Inspect components for abnormal wear or temperature. Correct lubrication issues according to the equipment's maintenance procedure and verify that the condition stabilizes after intervention."
+  },
+  {
+    "document_id": "KB_GENERAL_001",
+    "title": "Predictive Maintenance — Warning and Critical Conditions",
+    "machine_type": "General",
+    "fault": "GENERAL",
+    "content": "A WARNING condition indicates that the machine is showing a condition requiring increased monitoring or planned inspection. A CRITICAL condition indicates substantially higher operational risk and should receive immediate maintenance attention according to the system decision. Failure probability and RUL should be interpreted together with machine status, fault type, trend information, and agent decisions. The predictive system is decision support; physical inspection and site safety procedures remain authoritative."
+  }
+]

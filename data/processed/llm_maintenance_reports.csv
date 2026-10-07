@@ -1,0 +1,1035 @@
+Machine_ID,Machine_Type,Cycle,Simulation_Fault,failure_probability,predicted_rul_cycles,overall_status,maintenance_priority,maintenance_decision,alert_level,alert_required,llm_report
+ROBOT_007,Industrial_Robot,157,ACTUATOR_DEGRADATION,0.0002,49.12,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The industrial robot ROBOT_007 is currently showing early signs of degradation, specifically related to actuator performance. Although the predicted probability of failure remains very low, and the remaining useful life is estimated to be about 49 cycles, the system has detected a change in state indicating a developing issue.
+
+2. EVIDENCE  
+- Failure probability is 0.0002 (0.02%).  
+- Predicted remaining useful life is approximately 49.12 cycles.  
+- Overall status is set to WARNING with a high maintenance priority.  
+- Maintenance decision is to schedule an inspection due to machine degradation.  
+- Alert level is WARNING and an alert message has been generated accordingly.  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault labeled as ""ACTUATOR_DEGRADATION,"" it is hypothesized that the actuators in ROBOT_007 may be experiencing wear or reduced performance. This is not confirmed, but actuator issues commonly impact robot precision and responsiveness and could eventually lead to failure if unaddressed.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the actuators for signs of mechanical wear, lubrication issues, or electrical performance degradation. Additionally, checking related actuator control components and sensor feedback for abnormalities would be appropriate to understand the degradation's cause and extent.
+
+5. OPERATOR ACTION  
+Proceed with scheduling a detailed inspection as advised. Monitor the machine closely in the short term to detect any worsening condition. Ensure records from this inspection feed back into the predictive system for continuous monitoring and adjustment of maintenance plans."
+ROBOT_007,Industrial_Robot,161,ACTUATOR_DEGRADATION,0.0003,48.37,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The industrial robot ROBOT_007 is currently in a warning state due to indications of actuator degradation. Although the failure probability remains low at 0.03%, the predicted remaining useful life is relatively short at approximately 48 cycles, signaling emerging performance decline that merits attention.
+
+2. EVIDENCE  
+- Failure probability: 0.0003 (0.03%)  
+- Predicted remaining useful life (RUL): 48.37 cycles  
+- Overall status and alert level: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE related to actuator degradation simulation  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The degradation is hypothesized to originate from wear or weakening within the actuator components, which could affect torque or movement precision. This hypothesis is based on the detected state change labeled as actuator degradation, though no physical root cause has been confirmed.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on visually and functionally inspecting the actuators for signs of wear, reduced responsiveness, abnormal noises, or heat generation. Verification of actuator performance parameters against nominal operation is advised to confirm the degradation status.
+
+5. OPERATOR ACTION  
+Following the high maintenance priority and scheduled inspection decision, operators should promptly arrange for the inspection to occur within the next operational cycles to prevent escalation of degradation. Monitor robot operation closely for any abnormal behaviors until the inspection is completed."
+ROBOT_007,Industrial_Robot,163,ACTUATOR_DEGRADATION,0.0002,48.41,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The industrial robot ROBOT_007 is currently in a warning state due to detected machine degradation. Although the immediate failure probability is very low (0.02%), the remaining useful life is limited to approximately 48 cycles, indicating a downward trend in machine condition that warrants attention.
+
+2. EVIDENCE  
+- Failure probability: 0.0002 (0.02%)  
+- Predicted remaining useful life (RUL): 48.41 cycles  
+- Overall status and alert level: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE, reflecting a detectable shift in machine condition related to actuator degradation.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulated fault points to ""ACTUATOR_DEGRADATION"" as the source of the observed condition change. While this is a hypothesis based on simulation, actuator wear or performance decline may be influencing the reduction in RUL and causing the warning state.
+
+4. RECOMMENDED INSPECTION  
+Maintenance should focus on inspecting the actuators for signs of wear, degradation, or performance issues. Checking actuator responsiveness, mechanical integrity, and related control signals will provide insight into the degradation level and support maintenance planning.
+
+5. OPERATOR ACTION  
+Schedule and perform a detailed inspection of ROBOT_007’s actuators as recommended. No immediate shutdown is required, but this inspection should be prioritized given the high maintenance priority and limited remaining useful life. Document findings to inform next steps and update maintenance records accordingly."
+MOTOR_004,Electric_Motor,173,ELECTRICAL,0.0006,50.0,HEALTHY,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The electric motor MOTOR_004 is currently in a generally healthy state, with a low predicted failure probability. However, there is a detected state change indicating early signs of machine degradation that need to be addressed.
+
+2. EVIDENCE  
+- Failure probability is low at 0.0006 (0.06%).  
+- Predicted Remaining Useful Life (RUL) is 50 cycles.  
+- Overall status is HEALTHY.  
+- Maintenance priority is HIGH, with the decision to SCHEDULE INSPECTION.  
+- Alert level is WARNING, triggering an alert.  
+- The maintenance reason states: ""Machine degradation requires inspection.""  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Given the simulation_fault attribute is ""ELECTRICAL,"" it is plausible that early electrical degradation or anomalies (such as insulation wear or minor electrical imbalance) could be present. However, this is a hypothesis based solely on the simulation tag and is not confirmed by sensor data or measurements.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the motor’s electrical components, including the condition of windings, insulation resistance, and connections, to identify any degradation that could explain the state change. Electrical testing and visual inspection would be advisable.
+
+5. OPERATOR ACTION  
+Follow the maintenance decision to schedule an inspection promptly due to the elevated priority and warning alert. Monitor the motor closely during operation until the inspection is completed, and prepare to take corrective maintenance actions if any electrical issues are confirmed."
+MOTOR_004,Electric_Motor,178,ELECTRICAL,0.0006,48.63,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"ASSESSMENT  
+The electric motor MOTOR_004 is currently in a warning state, indicating early signs of machine degradation. While the predicted failure probability remains low at 0.06%, the remaining useful life is estimated to be about 49 cycles, suggesting that degradation is ongoing but has not yet reached a critical stage.
+
+EVIDENCE  
+- Failure probability: 0.0006 (0.06%)  
+- Predicted remaining useful life (RUL): 48.63 cycles  
+- Overall status and alert level: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE indicating a change in condition warranting attention
+
+POSSIBLE CONTRIBUTING FACTORS  
+Given the simulation fault type indicated as ""ELECTRICAL,"" it is hypothesized that early electrical issues, such as insulation deterioration or minor faults in the motor windings, could be contributing to the detected degradation. However, this is a hypothesis based on system simulation and not a confirmed root cause.
+
+RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the electrical components of MOTOR_004. Key areas include winding insulation integrity, electrical connections, and any signs of overheating or abnormal current draw. This inspection should aim to identify any early electrical degradation to prevent further worsening.
+
+OPERATOR ACTION  
+Proceed with scheduling and performing a detailed electrical inspection as recommended. Monitor the motor closely over the next cycles, and prepare for potential maintenance interventions should the inspection reveal issues or if the machine condition deteriorates further. This proactive approach aligns with the high maintenance priority and the scheduled inspection decision."
+MOTOR_004,Electric_Motor,180,ELECTRICAL,0.0003,47.24,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The electric motor MOTOR_004 is currently in a warning state indicating early signs of degradation. Although the failure probability is very low at 0.03%, the predicted remaining useful life (RUL) is about 47 cycles, suggesting that the motor's condition is deteriorating and may lead to a fault in the near future.
+
+2. EVIDENCE  
+- Failure probability: 0.0003 (0.03%)  
+- Predicted RUL: 47.24 cycles remaining  
+- Overall status: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Alert level: WARNING due to a state change detected in machine behavior  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulated fault type labeled as ""ELECTRICAL,"" this degradation may be related to electrical abnormalities such as insulation degradation, electrical imbalance, or connection issues. However, this is a hypothesis derived from the fault simulation tag and not a confirmed diagnosis.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should perform an electrical inspection focusing on components such as wiring integrity, insulation resistance, and electrical connections. Checking for signs of overheating or unusual electrical noise may also help identify the source of degradation.
+
+5. OPERATOR ACTION  
+Follow the maintenance decision to schedule an inspection promptly given the high priority status. Monitor the machine closely while planning and conducting the inspection to prevent unexpected failure beyond the predicted RUL horizon."
+ROBOT_007,Industrial_Robot,189,ACTUATOR_DEGRADATION,0.001,16.16,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The current condition of INDUSTRIAL_ROBOT ROBOT_007 is critical. The system has detected a significant change in its operational state that warrants immediate attention. Although the predicted failure probability is low, the Remaining Useful Life (RUL) estimate is short, indicating that the robot's performance may degrade very soon.
+
+2. EVIDENCE  
+- Machine cycle: 189  
+- Failure probability: 0.001 (0.10%)  
+- Predicted RUL: 16.16 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Trigger reason: STATE_CHANGE  
+- Alert level: CRITICAL  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The event log notes a simulation fault related to ""ACTUATOR_DEGRADATION."" While this is not a confirmed root cause, it is a plausible hypothesis explaining the critical condition and reduced RUL. Actuator degradation can lead to performance loss or failure, but further inspection is necessary to verify this.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should promptly inspect the actuators for signs of wear, deterioration, or malfunction. Additionally, checking related mechanical and electrical connections may help identify early faults contributing to the critical state. Monitoring the robot’s recent operational parameters may also provide supporting information.
+
+5. OPERATOR ACTION  
+Following the system's urgent directive, the operator should initiate immediate maintenance procedures to prevent unexpected failure. This includes taking the robot offline if safe to do so, conducting the recommended inspections, and performing necessary repairs or part replacements based on findings. Continuous monitoring should be maintained until the issue is resolved."
+ROBOT_007,Industrial_Robot,190,ACTUATOR_DEGRADATION,0.7479,15.49,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The industrial robot ROBOT_007 is currently in a critical condition. The failure prediction model indicates a high probability of imminent failure, and the remaining useful life (RUL) prediction suggests that the machine may fail within approximately 15.5 operational cycles.
+
+2. EVIDENCE  
+- Failure probability: 74.79%  
+- Predicted RUL: 15.49 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault indicates actuator degradation. This suggests that the actuator components could be wearing or deteriorating, potentially reducing their performance and reliability. However, this is a hypothesis based on the simulation and has not been physically confirmed.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspecting the actuators for signs of wear, degradation, or malfunction. This includes checking for mechanical wear, lubrication levels, alignment, and any irregularities in actuator response or control signals.
+
+5. OPERATOR ACTION  
+Following the IMMEDIATE MAINTENANCE decision, the operator should halt or significantly reduce the robot's workload to prevent sudden failure. Maintenance personnel must be mobilized immediately to conduct a detailed inspection and corrective actions on the actuators to mitigate the risk of failure and restore normal operation."
+ROBOT_007,Industrial_Robot,191,ACTUATOR_DEGRADATION,0.2371,17.26,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"ASSESSMENT  
+The Industrial Robot ROBOT_007 is currently in a critical condition with a significant risk of failure. The predictive models indicate that the actuator is degrading, which compromises the robot’s operational reliability within a short timeframe.
+
+EVIDENCE  
+- Failure probability is 23.71%, indicating a considerable likelihood of failure.  
+- Predicted Remaining Useful Life (RUL) is approximately 17.26 cycles, meaning the robot may fail soon if not addressed.  
+- Overall status is marked as CRITICAL with a maintenance priority of URGENT.  
+- Maintenance decision is IMMEDIATE MAINTENANCE triggered by a state change in the actuator condition.
+
+POSSIBLE CONTRIBUTING FACTORS  
+The degradation of the actuator is identified as the simulated fault. While this is a hypothesis based on simulation data, such degradation can impair movement precision or force output, potentially leading to failure if left unaddressed.
+
+RECOMMENDED INSPECTION  
+The maintenance team should promptly inspect the actuator system, focusing on its mechanical components, power delivery, and control signals. Look for signs of wear, abnormal noise, overheating, or decreased responsiveness. Checking actuator calibration and any related sensor feedback is also advisable.
+
+OPERATOR ACTION  
+Proceed immediately with maintenance activities directed at the actuator system as advised. Given the urgent nature of the alert and the critical status, prioritize this task to prevent unexpected downtime or damage to the robot and associated processes."
+CNC_001,CNC_Mill,193,BEARING_WEAR,0.0002,47.87,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The CNC_001 machine is currently experiencing early signs of degradation, reflected by a change in its operating condition. Although the failure probability remains low at 0.02%, the predicted Remaining Useful Life (RUL) is approximately 48 cycles, indicating that the machine may approach a failure state within this short timeframe.
+
+2. EVIDENCE  
+- Failure probability: 0.0002 (0.02%)  
+- Predicted RUL: 47.87 cycles  
+- Overall status: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault points to ""BEARING_WEAR,"" suggesting that bearing degradation might be contributing to the change in machine state. This is a hypothesis based on the simulation and should be verified through inspection.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should schedule an inspection focusing primarily on the bearings to check for wear or early signs of failure. It is also advisable to review related components that interact with the bearings to assess overall mechanical condition.
+
+5. OPERATOR ACTION  
+Proceed with scheduling the recommended inspection promptly to identify and address any evolving issues before they impact machine performance or cause unexpected downtime. Maintain heightened awareness for any changes in operation and report findings from the inspection for further analysis."
+ROBOT_007,Industrial_Robot,193,ACTUATOR_DEGRADATION,0.9656,12.38,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The industrial robot (ROBOT_007) is currently in a critical condition with a high likelihood of imminent failure. The failure prediction model indicates a very high probability that the machine will fail soon, necessitating urgent attention.
+
+2. EVIDENCE  
+- Failure probability: 96.56%  
+- Predicted remaining useful life: approximately 12.38 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL, with an alert triggered due to a state change.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault flagged is ""ACTUATOR_DEGRADATION,"" which may indicate that the actuator components are experiencing wear or reduced performance, potentially contributing to the predicted failure risk. This is a hypothesis based on the simulation fault label, not a confirmed root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the actuators of ROBOT_007, focusing on any signs of wear, degradation, or compromised mechanical or electrical integrity. Verifying actuator performance parameters and any associated control signals is advisable.
+
+5. OPERATOR ACTION  
+Given the urgent maintenance priority and immediate maintenance decision, the operator should arrange for maintenance intervention without delay. This includes scheduling the machine for immediate service and alerting the maintenance team to the critical condition, ensuring that ROBOT_007 is taken offline as soon as possible to prevent failure during operation."
+ROBOT_007,Industrial_Robot,194,ACTUATOR_DEGRADATION,0.3092,12.93,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The industrial robot ROBOT_007 is currently in a critical condition, indicated by the system detecting a significant degradation likely related to the actuator. The failure prediction model estimates a moderately high probability of failure soon, and the predicted remaining useful life (RUL) is less than 13 operating cycles, highlighting imminent risk.
+
+2. EVIDENCE  
+- Failure probability: 30.92%  
+- Predicted RUL: 12.93 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+- Trigger reason: State change indicating worsening condition  
+- Simulation fault: ACTUATOR_DEGRADATION  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault, actuator degradation is a plausible contributor to the machine's deteriorated state. Actuator performance issues could be impacting motion precision or force application. However, this is a hypothesis derived from simulation input, not a confirmed diagnosis.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspection of the robot’s actuators for signs of wear, reduced responsiveness, unusual noises, or any mechanical/electrical anomalies. Checking related components influencing actuator performance, such as power supply or control signals, may also be beneficial.
+
+5. OPERATOR ACTION  
+Follow the recommendation for immediate maintenance to prevent unexpected failure. This includes halting operations if safe, initiating detailed actuator inspection, and executing repairs or replacements as needed. Document findings and update the system after intervention to monitor condition improvement."
+CNC_001,CNC_Mill,195,BEARING_WEAR,0.0002,49.58,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The CNC_001 machine, a CNC Mill, is currently showing early signs of degradation. While the immediate failure probability remains very low at 0.02%, the predicted remaining useful life (RUL) is less than 50 cycles, indicating that wear is progressing and the machine condition has changed to warrant closer attention.
+
+2. EVIDENCE  
+- Failure probability: 0.0002 (0.02%) — low risk at present.  
+- Predicted remaining useful life: 49.58 cycles.  
+- Overall status: WARNING, triggered by a state change in the machine condition.  
+- Maintenance priority: HIGH, with decision to SCHEDULE INSPECTION.  
+- Alert level: WARNING, indicating a need to act but no immediate shutdown required.  
+- Simulated fault: Bearing wear, used by the Smart Twin simulation to model condition degradation.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulated fault of bearing wear, a plausible hypothesis is that the bearings are experiencing progressive wear that, if left unchecked, could lead to increased friction, vibration, or eventual failure. However, this is a modeled scenario rather than a confirmed root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the machine’s bearings for signs of wear, lubrication condition, and any abnormal noise or vibration patterns. Additional checks on related components that interact with the bearings may also be warranted to identify early signs of degradation.
+
+5. OPERATOR ACTION  
+Proceed with scheduling a detailed inspection as recommended. Carefully monitor the machine for any changes in vibration, noise, temperature, or performance. Avoid delaying this inspection to prevent escalation of wear and to plan maintenance activities before the predicted RUL is reached. Continue normal operation under alert status until inspection outcomes suggest any further action."
+ROBOT_007,Industrial_Robot,195,ACTUATOR_DEGRADATION,0.7254,8.96,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The industrial robot ROBOT_007 is currently in a critical condition. The system has detected a significant degradation likely affecting the actuator performance. This condition is severe enough to trigger an immediate maintenance requirement to prevent a failure.
+
+2. EVIDENCE  
+- Failure probability is high at 72.54%.  
+- Predicted remaining useful life (RUL) is approximately 9 cycles (8.96).  
+- Overall status and alert level are both CRITICAL.  
+- Maintenance decision is IMMEDIATE MAINTENANCE with an URGENT priority.  
+- The trigger for this alert is a state change indicative of actuator degradation.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault ""ACTUATOR_DEGRADATION,"" a plausible hypothesis is that the actuator components are experiencing wear or loss of performance, which could be impacting the robot’s operational effectiveness. However, this is a prediction and not a confirmed physical root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the actuators for signs of degradation such as abnormal noise, increased friction, loss of precision, or response delays. Checking actuator electronics and mechanical connections for faults or wear would be appropriate.
+
+5. OPERATOR ACTION  
+Given the critical alert and urgent immediate maintenance decision, operators should promptly halt robot operation and perform the recommended inspections. Maintenance actions should focus on diagnosing and repairing or replacing the actuators as needed to avoid imminent failure."
+PRESS_006,Hydraulic_Press,202,PRESSURE,0.0003,48.97,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The Hydraulic Press (PRESS_006) is currently exhibiting early signs of degradation, as indicated by a change in its operational state. While the immediate failure probability remains low (0.03%), the predicted remaining useful life is under 50 cycles, suggesting that the machine’s condition is deteriorating and warrants attention.
+
+2. EVIDENCE  
+- Failure probability: 0.0003 (0.03%)  
+- Predicted remaining useful life (RUL): approximately 49 cycles  
+- Overall status and alert level: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION due to detected machine degradation  
+- Trigger reason: STATE_CHANGE indicating a shift in monitored parameters
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the event, the degradation may be associated with pressure-related issues, given the simulated fault type labeled as ""PRESSURE."" This could indicate early signs of hydraulic system stress or wear, but it remains a hypothesis since no specific sensor anomalies are provided.
+
+4. RECOMMENDED INSPECTION  
+Maintenance should focus on inspecting the hydraulic pressure system components, such as valves, seals, and pumps, to identify signs of leakage, wear, or abnormal pressure readings. Confirming the integrity and performance of pressure control elements will help prevent further degradation and potential failure.
+
+5. OPERATOR ACTION  
+Following the maintenance decision, schedule and perform a thorough inspection promptly to evaluate the hydraulic press’s condition. Continue monitoring machine parameters closely, and prepare for possible maintenance actions before the predicted end of life is reached, in order to ensure safe and reliable operations."
+PRESS_006,Hydraulic_Press,206,PRESSURE,0.0003,46.51,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT
+The hydraulic press PRESS_006 is currently in a warning state due to detected machine degradation. While the immediate failure probability is low (0.03%), the predicted remaining useful life (RUL) indicates the machine may experience a fault related to pressure within approximately 46.5 cycles if not addressed.
+
+2. EVIDENCE
+- Failure probability: 0.0003 (0.03%), indicating a low but non-negligible risk of failure.
+- Predicted RUL: 46.51 cycles, suggesting limited remaining operational life before potential fault manifestation.
+- Overall status: WARNING, reflecting detected signs of degradation.
+- Maintenance priority: HIGH, emphasizing the importance of timely action.
+- Maintenance decision: SCHEDULE INSPECTION, indicating proactive maintenance is recommended.
+- Trigger reason: STATE_CHANGE related to the simulation fault on PRESSURE.
+
+3. POSSIBLE CONTRIBUTING FACTORS
+Based on the detected simulation fault labeled ""PRESSURE,"" a plausible hypothesis is that there may be emerging issues in the hydraulic system affecting pressure regulation or containment. This could involve components such as seals, valves, or hydraulic fluid levels, but this cannot be confirmed without inspection.
+
+4. RECOMMENDED INSPECTION
+The maintenance team should conduct a thorough inspection focused on the hydraulic pressure system. This includes checking for leaks, verifying pressure levels, evaluating the condition of seals and valves, and assessing fluid quality and volume. Particular attention should be given to any early signs of wear or malfunction that could contribute to pressure irregularities.
+
+5. OPERATOR ACTION
+Operators should prepare for the scheduled inspection as recommended by maintenance, ensuring the machine’s operation is monitored and any abnormalities are promptly reported. No immediate shutdown is mandated, but heightened awareness and readiness for intervention within the next approximately 46 cycles are advisable to prevent unplanned downtime."
+MOTOR_004,Electric_Motor,208,ELECTRICAL,0.0008,19.42,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The electric motor MOTOR_004 is currently in a critical condition. Although the failure probability at this cycle is low (0.08%), the predicted remaining useful life (RUL) is very short at approximately 19.4 cycles. This indicates that while immediate failure is not yet highly likely, the motor’s degradation state has rapidly progressed to a point requiring urgent intervention.
+
+2. EVIDENCE  
+- Failure probability: 0.0008 (0.08%)  
+- Predicted RUL: 19.42 cycles  
+- Overall status and alert level: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Trigger reason: STATE_CHANGE indicating a significant shift in machine condition
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The event notes ""simulation_fault"" classified as ELECTRICAL. While no physical root cause is confirmed, this suggests a hypothesis that electrical anomalies or degradation could be contributing to the critical status. This may include insulation wear, winding faults, or other electrical system issues impacting motor performance.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should immediately inspect all electrical components including wiring, insulation integrity, connections, and the condition of windings. Additional checks for abnormal electrical parameters or signs of arcing or shorts should be prioritized to identify any faults that may be causing accelerated deterioration.
+
+5. OPERATOR ACTION  
+Following the IMMEDIATE MAINTENANCE decision is essential. The operator should coordinate prompt scheduling of detailed electrical inspections and necessary repairs before the motor approaches the predicted end of its useful life. Continuous monitoring should be maintained to detect any further changes during this critical period."
+MOTOR_004,Electric_Motor,210,ELECTRICAL,0.3219,11.21,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The electric motor MOTOR_004 is currently in a critical condition. The system has detected a significant deterioration in its state, indicating a high risk of failure within a short operational time frame.
+
+2. EVIDENCE  
+The failure prediction model estimates a failure probability of 32.19%. The remaining useful life (RUL) is predicted to be approximately 11.21 cycles, indicating imminent risk of failure. The overall status is marked as CRITICAL with an alert level also at CRITICAL. Consequently, the maintenance decision is to perform immediate maintenance on this machine.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Given the simulation fault noted as ""ELECTRICAL,"" it is a plausible hypothesis that electrical issues such as insulation degradation, winding faults, or power supply anomalies may be contributing to the deteriorated condition. However, these are predictions and hypotheses, not confirmed root causes.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspecting the electrical components of MOTOR_004. This includes checking motor windings, insulation condition, electrical connections, and power supply integrity to identify any abnormal conditions consistent with electrical faults.
+
+5. OPERATOR ACTION  
+Follow the advised immediate maintenance procedure without delay. Ensure that the motor is taken offline safely, and conduct a thorough electrical inspection as outlined. This prompt action is vital to prevent unexpected failure and avoid potential downtime or damage."
+MOTOR_004,Electric_Motor,211,ELECTRICAL,0.2017,11.87,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The electric motor MOTOR_004 is currently in a critical condition. The failure prediction model indicates a significant risk of failure soon, and the remaining useful life (RUL) is low, suggesting imminent degradation of key components.
+
+2. EVIDENCE  
+- Failure probability: 20.17% at cycle 211  
+- Predicted remaining useful life: approximately 11.87 cycles  
+- Overall status and alert level: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Given the simulation fault labeled as ""ELECTRICAL,"" a potential hypothesis is that electrical issues such as insulation degradation, winding faults, or voltage irregularities may be contributing to the declining condition. However, this is a model-based indication and not confirmed by physical inspection.
+
+4. RECOMMENDED INSPECTION  
+Inspect the electrical components of MOTOR_004, including windings, insulation condition, connectors, and power supply quality. Verify signs of overheating, partial discharges, or unusual electrical noise that may corroborate the predicted electrical fault.
+
+5. OPERATOR ACTION  
+Proceed with immediate maintenance as directed. Prioritize an urgent electrical system inspection to identify and address potential faults before continued operation. Follow safety protocols to prevent further damage or unexpected downtime."
+MOTOR_004,Electric_Motor,212,ELECTRICAL,0.9807,9.6,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The electric motor MOTOR_004 is currently in a critical condition with a very high likelihood of failure. The predictive models indicate the machine is nearing the end of its useful life during operation, suggesting significant risk if it continues running without intervention.
+
+2. EVIDENCE  
+- Failure probability is extremely high at 98.07%.  
+- Predicted Remaining Useful Life (RUL) is approximately 9.6 operational cycles.  
+- Overall status and alert level are both marked as CRITICAL.  
+- Maintenance priority is URGENT, resulting in a decision for IMMEDIATE MAINTENANCE.  
+- The system triggered this alert due to a change in machine state, signaling a rapid degradation.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the fault simulation indicating ELECTRICAL issues, the root cause may involve electrical components such as insulation degradation, winding faults, or connection problems. However, this remains a hypothesis generated by the simulation and is not confirmed.
+
+4. RECOMMENDED INSPECTION  
+Maintenance should promptly inspect the motor’s electrical systems, including winding insulation, terminal connections, and any control circuitry. Checking for signs of overheating, arcing, or abnormal resistance should be prioritized to identify potential failure sources.
+
+5. OPERATOR ACTION  
+Immediate maintenance intervention is required to prevent an imminent failure. This involves halting operation as soon as possible and performing the detailed inspections outlined above without delay. Follow established safety protocols and procedures during inspection and repair."
+MOTOR_004,Electric_Motor,216,ELECTRICAL,0.5591,9.16,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The electric motor labeled MOTOR_004 is currently in a critical condition. The failure prediction model estimates a failure probability exceeding 55%, indicating a significant risk of malfunction in the near term. The remaining useful life prediction indicates less than 10 operational cycles before potential failure. This state change has triggered an urgent and critical alert requiring immediate maintenance action to prevent unscheduled downtime or damage.
+
+2. EVIDENCE  
+- Failure probability: 55.91%  
+- Predicted Remaining Useful Life (RUL): 9.16 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The event simulation mentions an ""ELECTRICAL"" fault, which suggests that electrical issues such as insulation degradation, winding faults, or electrical imbalance might be contributing to the elevated failure risk. However, this is a hypothesis based on the simulation label and not a confirmed root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should promptly inspect the motor’s electrical components, including but not limited to insulation resistance, winding integrity, connection points, and power supply quality. Checking for signs of overheating, unusual vibrations, or electrical noise could also help identify the underlying issue.
+
+5. OPERATOR ACTION  
+In line with the critical alert and urgent maintenance priority, execute immediate maintenance procedures on MOTOR_004 to prevent imminent failure. Prioritize electrical diagnostics and any necessary repairs or replacements as identified by the inspection. Follow established safety protocols during intervention to ensure operator safety and machine integrity."
+MOTOR_004,Electric_Motor,217,ELECTRICAL,0.9963,9.14,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The electric motor MOTOR_004 is currently in a critical condition, indicating an imminent risk of failure. The system has detected a significant state change leading to this status, necessitating urgent attention to prevent unplanned downtime.
+
+2. EVIDENCE  
+- Failure probability is extremely high at 99.63%.  
+- Remaining useful life (RUL) is predicted to be approximately 9.14 cycles.  
+- The simulated fault type identified is ELECTRICAL.  
+- Overall status is CRITICAL with a corresponding CRITICAL alert level.  
+- Maintenance priority is URGENT, with a decision favoring IMMEDIATE MAINTENANCE.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault ""ELECTRICAL,"" possible contributing factors might include electrical insulation degradation, winding faults, or connection issues. These should be considered as hypotheses since no direct measurements confirming the exact root cause are available.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize a thorough inspection of the motor’s electrical components, including wiring integrity, insulation resistance, and any signs of overheating or electrical arcing. Verification of electrical connections and assessment for early signs of electrical fault development should be conducted.
+
+5. OPERATOR ACTION  
+Follow the immediate maintenance decision without delay. Dispatch the maintenance crew to perform urgent inspection and corrective actions as indicated. Ensure safety protocols are observed given the critical status and implement measures to minimize operational risks during the intervention."
+COMP_003,Compressor,218,VIBRATION,0.0007,43.89,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently showing signs of early degradation, as indicated by a state change leading to a warning alert. Although the failure probability is low at 0.07%, the remaining useful life (RUL) prediction of approximately 44 cycles suggests that the component may deteriorate within a relatively short operational timeframe.
+
+2. EVIDENCE  
+- Failure probability: 0.0007 (0.07%)  
+- Predicted remaining useful life: 43.89 cycles  
+- Alert level: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE indicating detected machine condition change  
+- Simulation fault flagged: VIBRATION
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The flagged vibration simulation fault may indicate abnormal mechanical oscillations or imbalances developing in the compressor. Such vibration patterns are often associated with wear in bearings, misalignment, or loosened components. However, this is a hypothesis based solely on the simulation fault type and should be confirmed through physical inspection.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the compressor’s mechanical components for vibration-related issues. This includes checking bearings, shaft alignment, and mounting integrity to detect any early signs of wear or looseness that could lead to increased vibration and eventual failure.
+
+5. OPERATOR ACTION  
+Following the high-priority schedule inspection decision, the operator should arrange for immediate physical inspection of the compressor at the earliest maintenance window. Monitoring should continue closely to detect any worsening conditions until the inspection occurs. No immediate shutdown is required but prudent operational caution is advisable."
+CNC_001,CNC_Mill,221,BEARING_WEAR,0.0003,17.02,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The CNC_001 machine, a CNC mill, is currently in a critical condition as indicated by the overall status. The failure prediction model estimates a low but non-negligible failure probability, while the remaining useful life (RUL) prediction indicates about 17 cycles left before possible failure. Due to a detected state change, the system has triggered an urgent alert and recommends immediate maintenance.
+
+2. EVIDENCE  
+- Failure probability: 0.0003 (0.03%)  
+- Predicted RUL: 17.02 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Trigger reason: STATE_CHANGE  
+- Alert level: CRITICAL  
+- Simulation fault: BEARING_WEAR  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation indicates bearing wear as a fault condition, which may be contributing to the deterioration in machine condition. Although this is a modeled hypothesis and not a confirmed root cause, bearing issues are plausible contributors to critical machine states in CNC mills.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspection of the spindle bearings and associated components for signs of wear, lubrication issues, or damage. Additional checks on machine vibrations and noise during operation could help identify bearing degradation consistent with the simulated fault.
+
+5. OPERATOR ACTION  
+Follow the immediate maintenance decision by halting CNC_001 promptly to prevent failure. Proceed with urgent inspection and servicing of bearing components as indicated. Ensure the critical alert is acknowledged and escalated per protocol to maintain operational safety and minimize downtime."
+COMP_003,Compressor,222,VIBRATION,0.0004,46.68,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently in a warning state due to detected machine degradation. While the predicted failure probability remains very low (0.04%), the remaining useful life (RUL) suggests the machine is expected to operate for about 46.7 more cycles before significant failure risk increases. The system has triggered a state change alert indicating deterioration that warrants closer attention.
+
+2. EVIDENCE  
+- Failure probability: 0.0004 (0.04%) — low risk currently.  
+- Predicted RUL: 46.68 cycles — limited remaining operational life.  
+- Overall status: WARNING — indicates early signs of degradation.  
+- Maintenance priority: HIGH — urgent need to address before issues escalate.  
+- Maintenance decision: SCHEDULE INSPECTION — proactive check recommended.  
+- Simulation fault type: VIBRATION — suggests abnormal vibration patterns detected.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The elevated vibration detected by the simulation fault may indicate imbalances, misalignment, or bearing wear within the compressor. These factors could be contributing to the machine's degradation and reduced RUL. However, this is a hypothesis based solely on the vibration-related alert and requires confirmation through inspection.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting vibration-related components such as bearings, shafts, and couplings for signs of wear, looseness, or misalignment. Vibration analysis data should be reviewed closely, and any abnormal mechanical conditions should be addressed promptly.
+
+5. OPERATOR ACTION  
+Following the system’s high-priority maintenance decision, schedule and perform a detailed inspection of the compressor’s vibration-related components as soon as possible. Record findings and any corrective actions taken to prevent deterioration from progressing to failure, in line with the recommended inspection step."
+CNC_001,CNC_Mill,223,BEARING_WEAR,0.7748,13.21,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The CNC_001 machine is currently in a critical condition with a high likelihood of failure. The predictive models indicate that the machine’s operational health is significantly degraded, requiring urgent attention to avoid unplanned downtime.
+
+2. EVIDENCE  
+- Failure probability is high at 77.48%.  
+- Predicted remaining useful life (RUL) is approximately 13.21 cycles, indicating limited operational time before failure.  
+- The overall status is marked as CRITICAL.  
+- Maintenance priority is set to URGENT with a decision for IMMEDIATE MAINTENANCE.  
+- The alert level is CRITICAL, triggering a system alert highlighting the urgent risk.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault labeled as BEARING_WEAR, bearing degradation is a plausible cause of the predicted failure risk. However, this is a hypothesis derived from the simulation fault classification and not a confirmed diagnostic result.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspection of the machine’s bearings for signs of wear, lubrication issues, or mechanical damage. Additional checks of associated components that interact with the bearings may be warranted to assess overall mechanical integrity.
+
+5. OPERATOR ACTION  
+In line with the urgent maintenance decision, initiate immediate maintenance procedures focusing on bearing condition assessment and replacement if necessary. Suspend machine operation as required to safely perform inspection and corrective actions. Document findings and maintenance actions to inform future predictive assessments."
+CNC_001,CNC_Mill,224,BEARING_WEAR,0.4115,13.86,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"ASSESSMENT  
+The CNC_001 mill is currently in a critical condition, with a significant risk of failure within the near future. The system detects a state change indicating an urgent need for maintenance to avoid unexpected breakdown.
+
+EVIDENCE  
+- Failure probability is 41.15%, indicating elevated risk.  
+- Predicted remaining useful life (RUL) is approximately 13.86 cycles, suggesting limited operational time before potential failure.  
+- Overall status is ""CRITICAL"" and maintenance priority is marked as ""URGENT.""  
+- The maintenance decision is for ""IMMEDIATE MAINTENANCE.""  
+- The alert level is ""CRITICAL,"" and an alert has been triggered by the state change.
+
+POSSIBLE CONTRIBUTING FACTORS  
+The simulation points to ""BEARING_WEAR"" as a likely source of degradation. While this is a simulated fault and not confirmed, it suggests that bearing wear could be contributing to the critical status of the machine.
+
+RECOMMENDED INSPECTION  
+The maintenance team should inspect the bearings of the CNC mill for signs of wear, lubrication issues, or damage. Additionally, the general mechanical condition related to rotational components should be assessed to confirm or rule out bearing degradation.
+
+OPERATOR ACTION  
+Based on the critical alert and urgent maintenance recommendation, operators should immediately cease production on CNC_001 and initiate the prescribed maintenance procedures focusing on bearing inspection and replacement if necessary. Prompt action will help prevent unexpected failure and minimize downtime."
+COMP_003,Compressor,224,VIBRATION,0.0004,45.27,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently in a warning state indicating early machine degradation. Although the failure probability is very low at 0.04%, the remaining useful life (RUL) prediction suggests the machine has approximately 45 operational cycles before a potential failure risk increases. This early warning reflects a subtle change in machine condition that warrants proactive attention.
+
+2. EVIDENCE  
+- Failure probability: 0.0004 (0.04%)  
+- Predicted RUL: 45.27 cycles remaining  
+- Overall status: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE indicating recent change in condition initiation  
+- Reported fault simulation: VIBRATION
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault indicating ""VIBRATION"" may suggest early-stage mechanical issues such as imbalance, misalignment, or bearing wear. These factors can cause increased vibration levels that degrade compressor performance. However, this remains a hypothesis derived from the fault simulation and is not confirmed by physical diagnostics.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should conduct a thorough inspection focusing on vibration-related components, including bearings, shaft alignment, and imbalance sources. Measurement of vibration amplitude and frequency spectrum during operation will help validate the early warning and identify any developing mechanical issues.
+
+5. OPERATOR ACTION  
+Following the high priority to schedule an inspection, operators should promptly arrange for detailed monitoring and physical inspection of the compressor's vibration characteristics. No immediate shutdown is indicated since failure probability is low, but timely inspection will help prevent progression toward failure. Continue normal operation while preparing for inspection within the next few operational cycles."
+CNC_001,CNC_Mill,225,BEARING_WEAR,0.1137,16.49,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The CNC_001 milling machine is currently in a critical condition based on system assessment. The predictive models indicate a significant likelihood of impending failure within a short operational window.
+
+2. EVIDENCE  
+- Failure probability is 11.37%, which represents a notable risk level.  
+- The predicted remaining useful life (RUL) is approximately 16.49 cycles, indicating limited time before potential failure.  
+- The overall machine status is flagged as CRITICAL, triggering an URGENT maintenance priority.  
+- The system's maintenance decision is for IMMEDIATE MAINTENANCE, aligned with the CRITICAL alert level.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The event simulation attributes the fault to bearing wear. Although not confirmed, this suggests that degradation in the machine’s bearings could be contributing to the critical condition detected by the predictive models.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspection of the bearing components in the CNC mill for signs of wear or damage. Additionally, verifying lubrication status and checking for abnormal noises or vibrations may help identify early signs of mechanical degradation.
+
+5. OPERATOR ACTION  
+Given the urgency and critical alert, immediate maintenance intervention is required to prevent potential machine failure. Operators should halt operations and proceed with detailed inspection and servicing of the bearings as indicated. Prompt action will help maintain machine reliability and avoid unscheduled downtime."
+CNC_001,CNC_Mill,229,BEARING_WEAR,0.9952,9.8,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The CNC_001 machine is in a critical condition based on the predictive models. The failure prediction indicates a very high likelihood of imminent failure, requiring urgent intervention to prevent unexpected breakdown.
+
+2. EVIDENCE  
+- Failure probability is 99.52%, indicating near-certain failure soon.  
+- Predicted Remaining Useful Life (RUL) is approximately 9.8 cycles, suggesting limited operational time before failure.  
+- The machine status is marked as CRITICAL, with an alert level at CRITICAL.  
+- Maintenance priority is URGENT, and the decision mandates IMMEDIATE MAINTENANCE.  
+- The trigger was a change in the machine’s state, prompting this alert.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulated fault is identified as bearing wear. While this is a model-based hypothesis rather than a confirmed root cause, bearing degradation is a common cause of mechanical failure in CNC mills and may be contributing to the critical condition.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspection of the bearings for signs of wear, damage, or lubrication issues. Additionally, checking associated mechanical components for abnormal noise, vibration, or temperature increases would be prudent given the criticality.
+
+5. OPERATOR ACTION  
+Immediate maintenance action is required according to the system decision. Operators should halt machine operation promptly and initiate a detailed inspection and necessary repair or replacement of suspect components, focusing on the bearings. This will help avoid catastrophic failure and minimize downtime."
+PRESS_006,Hydraulic_Press,230,PRESSURE,0.029,18.35,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The machine PRESS_006, a Hydraulic_Press, is currently in a critical condition as indicated by the overall status and alert level. While the failure probability is relatively low at 2.9%, the predicted remaining useful life (RUL) is very short—only 18.35 cycles remaining—signaling imminent risk of failure. This critical state triggered an urgent maintenance priority, leading to the decision for immediate maintenance.
+
+2. EVIDENCE  
+- Failure probability: 2.9%  
+- Predicted RUL: 18.35 cycles  
+- Overall status: CRITICAL  
+- Alert level: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Trigger: STATE_CHANGE at cycle 230  
+- Simulation fault identified as: PRESSURE  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault labeled “PRESSURE,” there is a hypothesis that pressure-related issues, such as loss of hydraulic pressure or irregular pressure fluctuations, may be contributing to the degraded condition. However, this is a model-based indication and not a confirmed physical root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspection of the hydraulic pressure system components, including pressure sensors, valves, hydraulic fluid levels, and seals. Verifying pressure stability, checking for leaks, and assessing valve function will help identify potential issues causing this critical state.
+
+5. OPERATOR ACTION  
+Following the urgent maintenance priority and immediate maintenance decision, the machine should be taken out of operation promptly to avoid failure. The maintenance team must conduct the recommended inspections and address any detected hydraulic pressure anomalies before resuming production to ensure safe and reliable operation."
+PRESS_006,Hydraulic_Press,233,PRESSURE,0.9572,15.51,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The Hydraulic Press PRESS_006 is currently in a critical condition, with the system detecting a very high likelihood of failure. The predicted Remaining Useful Life (RUL) is approximately 15.5 cycles, indicating the machine is close to failing if no action is taken.
+
+2. EVIDENCE  
+- Failure probability is 95.72%, a very high likelihood of imminent failure.  
+- Predicted RUL is 15.51 cycles, showing limited remaining operational time.  
+- Overall status and alert level are both marked as CRITICAL.  
+- Maintenance priority is URGENT, with the decision set to IMMEDIATE MAINTENANCE due to a critical machine condition.  
+- The triggering event is a state change related to pressure, noted under simulation fault.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+While the exact root cause is not confirmed, the simulation flagged a pressure-related fault, which may point to potential issues in the hydraulic system such as pressure loss, valve malfunction, or seal degradation. These are hypotheses based on the pressure-related fault indication.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the hydraulic pressure system components:  
+- Check hydraulic fluid levels and condition.  
+- Inspect pressure valves, sensors, and seals for leaks or malfunctions.  
+- Verify the pressure regulation and any possible system blockages or mechanical wear affecting pressure maintenance.
+
+5. OPERATOR ACTION  
+Given the critical alert and urgent maintenance priority, immediate shutdown and initiation of maintenance procedures are required. Coordinating with the maintenance team to perform the focused pressure system inspection and repairs promptly will help prevent unexpected failure and potential damage to the machine."
+PRESS_006,Hydraulic_Press,234,PRESSURE,0.0621,18.16,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic press PRESS_006 is currently in a critical condition as indicated by the system. The failure probability has increased to 6.21%, and the predicted remaining useful life (RUL) is approximately 18 cycles, signaling an imminent risk of malfunction.
+
+2. EVIDENCE  
+- Failure probability: 6.21%  
+- Predicted RUL: 18.16 cycles  
+- Overall status: CRITICAL  
+- Alert level: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Simulation fault flagged: PRESSURE  
+- Trigger reason: STATE_CHANGE
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The flagged ""PRESSURE"" simulation fault suggests that issues related to hydraulic pressure regulation may be contributing to the degrading condition. This is a hypothesis based on the simulation fault marker and has not been physically confirmed.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should urgently inspect the hydraulic pressure system components, including pressure sensors, valves, seals, and fluid levels for potential leaks or degradation. Verifying the integrity of the pressure control circuit and checking for abnormal pressure fluctuations is also advisable.
+
+5. OPERATOR ACTION  
+Following the system’s urgent maintenance decision, immediate maintenance should be initiated to prevent failure. The operator should arrange for the maintenance team to perform diagnostics and repairs on the pressure system without delay to ensure safe continued operation."
+PRESS_006,Hydraulic_Press,236,PRESSURE,0.6025,15.81,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic press PRESS_006 is currently in a critical condition. The failure prediction model indicates a high likelihood of imminent failure, with a failure probability of over 60%. The predicted remaining useful life (RUL) is approximately 16 cycles, signaling that the machine may fail very soon if not addressed promptly.
+
+2. EVIDENCE  
+- Failure Probability: 0.6025 (60.25%), indicating a significant risk of failure.  
+- Predicted RUL: 15.81 cycles, suggesting limited ahead-of-time operational capacity.  
+- Overall Status: CRITICAL.  
+- Maintenance Priority: URGENT.  
+- Maintenance Decision: IMMEDIATE MAINTENANCE.  
+- Trigger Reason: STATE_CHANGE, indicating the critical condition was detected due to a change in the machine state.  
+- Simulated Fault: PRESSURE, which guides the focus towards pressure-related components or systems.  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Given the simulated fault type ""PRESSURE,"" a possible cause of the critical condition might be related to hydraulic pressure abnormalities such as leaks, valve malfunctions, or pump degradation. However, this is a hypothesis based solely on the simulation fault input and has not been confirmed by physical diagnostics or sensor verification.
+
+4. RECOMMENDED INSPECTION  
+Maintenance should prioritize inspection of all pressure-related systems within the hydraulic press. This includes examining hydraulic fluid pressure levels, checking for leaks or damaged seals, assessing the condition of hydraulic pumps and valves, and verifying sensor accuracy related to pressure measurements.
+
+5. OPERATOR ACTION  
+As the maintenance decision is IMMEDIATE MAINTENANCE with URGENT priority, operators should halt normal operation of PRESS_006 to prevent further damage. The maintenance team must be alerted without delay to perform a thorough inspection focusing on pressure-related components. Prompt corrective actions should be taken based on inspection findings to ensure safe and reliable operation."
+PUMP_002,Hydraulic_Pump,236,OVERHEATING,0.0002,48.56,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The hydraulic pump PUMP_002 is currently showing signs of degradation indicated by a state change. Although the failure probability is very low at 0.02%, the predicted remaining useful life (RUL) of about 48.56 cycles suggests the component may be approaching a condition warranting closer monitoring. The system has classified the overall status as WARNING, signaling that the pump’s condition requires attention before potential failure.
+
+2. EVIDENCE  
+- Failure probability is 0.0002 (0.02%), indicating a low immediate risk of failure.  
+- Predicted RUL is 48.56 cycles, meaning the model anticipates the pump’s useful life will significantly decrease soon.  
+- Overall status is set to WARNING with a corresponding alert level.  
+- Maintenance decision is to SCHEDULE INSPECTION with HIGH priority.  
+- The trigger for this event is a STATE_CHANGE, likely reflecting recent changes in sensor readings or operating conditions.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The noted simulation fault is OVERHEATING, which is a plausible contributing factor to the degradation. This hypothesis is based on the state change associated with this fault, but is not confirmed by direct physical evidence. Overheating can accelerate wear or damage internal components, reducing pump efficiency and service life. Other factors cannot be ruled out but are not indicated in this event.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the pump with focus on signs consistent with overheating. This includes checking for elevated temperatures, lubricant condition, seal integrity, and evidence of thermal damage to internal parts. Inspecting sensor calibrations and confirming no abnormal operating conditions are also important to verify the model’s fault hypothesis.
+
+5. OPERATOR ACTION  
+Follow the existing decision to schedule an inspection as soon as practical, prioritizing this task due to the high maintenance priority. Document the inspection findings and monitor the pump’s performance closely after inspection. Continue operating the pump within safe parameters but prepare for potential maintenance intervention depending on inspection results."
+PRESS_006,Hydraulic_Press,237,PRESSURE,0.0543,17.68,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic press PRESS_006 is currently in a critical condition. Although the failure probability is moderate at 5.43%, the predicted remaining useful life (RUL) is very short, approximately 17.7 cycles. This indicates that the machine is at high risk of failure in the near term and requires urgent attention.
+
+2. EVIDENCE  
+- Failure probability: 5.43%  
+- Predicted RUL: 17.68 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+- Trigger reason: State change detected related to PRESSURE fault simulation
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault indicates a PRESSURE-related issue, which may suggest problems within the hydraulic system such as pressure drops, leaks, or component wear affecting hydraulic pressure. This remains a hypothesis based on the fault simulation and predictive indicators but is not confirmed.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the hydraulic pressure system components, including pressure sensors, seals, valves, and pumps, to detect any irregularities or potential failures. Checking for leaks, pressure stability, and proper sensor functioning will be important to identify the underlying cause.
+
+5. OPERATOR ACTION  
+Follow the maintenance decision for immediate maintenance due to the critical condition. Initiate a prompt service intervention to prevent imminent failure, prioritizing the inspection and repair of pressure-related components. Monitor the machine closely during maintenance activities to ensure safety and restore normal operation."
+PRESS_006,Hydraulic_Press,238,PRESSURE,0.9938,11.62,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic press PRESS_006 is currently in a critical condition. The system predicts a very high likelihood of failure imminently, indicating that the machine is no longer reliably operational and requires urgent attention.
+
+2. EVIDENCE  
+The failure prediction model estimates a 99.38% probability of failure at cycle 238. The predicted remaining useful life (RUL) is approximately 11.6 cycles, which is very short. The overall status is marked as CRITICAL, with a maintenance priority set to URGENT and the maintenance decision is IMMEDIATE MAINTENANCE. The alert level is also CRITICAL, mandating urgent action.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The event data simulates a pressure-related fault, which may suggest issues such as hydraulic fluid leaks, pressure valve malfunctions, or pump degradation. However, this is a hypothesis based only on the fault simulation label and not confirmed by direct measurement or diagnostics.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should thoroughly inspect the hydraulic pressure system components, including pressure sensors, valves, seals, and pumps. Checking for leaks, abnormal pressure readings, or component wear would be critical to identify potential causes and prevent failure.
+
+5. OPERATOR ACTION  
+Follow the maintenance decision for immediate intervention. Arrange for the hydraulic press to be taken out of operation promptly and conduct a detailed inspection and repair as needed to avoid unplanned downtime or safety risks."
+PUMP_002,Hydraulic_Pump,238,OVERHEATING,0.0001,46.79,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The hydraulic pump PUMP_002 is currently showing signs of degradation, as indicated by a warning alert. Although the failure probability is very low, the predicted Remaining Useful Life (RUL) is under 47 cycles, suggesting that the machine condition is declining and potential faults may develop soon.
+
+2. EVIDENCE  
+- Failure probability is 0.01% (0.0001), indicating a low immediate risk of failure.  
+- Predicted RUL is approximately 46.79 cycles, which is relatively short and implies that the pump may require attention soon.  
+- Overall status is WARNING with a maintenance priority classified as HIGH.  
+- Maintenance decision is to SCHEDULE INSPECTION based on machine degradation.  
+- The trigger for this status is a STATE_CHANGE, and the alert level is WARNING.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault indicates overheating; this is a hypothesis drawn from the simulation environment and should be considered as a potential cause for the degradation. Overheating could stem from increased friction, lubricant issues, or cooling system inefficiencies.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the pump for signs of overheating, including checking temperature sensors if available, verifying lubrication levels and condition, assessing any changes in vibration or noise, and inspecting cooling paths or heat dissipation components. Attention should be given to any early wear or damage consistent with thermal stress.
+
+5. OPERATOR ACTION  
+Following the maintenance decision, schedule a detailed inspection as soon as possible to evaluate the pump condition and prevent unexpected failure. Monitor the machine closely in the meantime, and report any worsening symptoms or additional alerts to the maintenance team promptly."
+PUMP_002,Hydraulic_Pump,240,OVERHEATING,0.0001,43.89,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The hydraulic pump PUMP_002 is currently in a warning state indicating early machine degradation. The failure probability is very low at 0.01%, but the predicted remaining useful life (RUL) is under 44 cycles, signaling that some degradation process is underway. This has prompted a maintenance decision to schedule an inspection to prevent further deterioration.
+
+2. EVIDENCE  
+- Failure probability: 0.0001 (0.01%) – very low but nonzero.  
+- Predicted RUL: 43.89 cycles – indicating limited operational life remaining.  
+- Overall status and alert level: WARNING.  
+- Maintenance priority: HIGH and decision: SCHEDULE INSPECTION.  
+- Trigger reason: STATE_CHANGE reflecting a detected shift in machine condition.  
+- Simulation fault flagged as OVERHEATING.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulated fault of overheating may suggest that the pump’s temperature is rising beyond normal operating parameters, potentially stressing internal components. This overheating could be a factor leading to the early stage degradation detected. However, this is a hypothesis based on simulation; no physical cause is confirmed.
+
+4. RECOMMENDED INSPECTION  
+The inspection should focus on the hydraulic pump’s thermal condition, including checking for signs of overheating such as elevated temperature readings, cooling system performance, lubrication condition, and possible wear or damage related to thermal stress.
+
+5. OPERATOR ACTION  
+Follow the maintenance decision to schedule an inspection promptly at the earliest convenient downtime. Monitor temperature-related parameters closely until inspection occurs. Prepare to address any issues identified during the inspection to avoid unexpected failure as the pump approaches the end of its predicted RUL."
+COMP_003,Compressor,247,VIBRATION,0.0002,18.41,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"ASSESSMENT  
+The compressor COMP_003 is currently in a critical condition, with an urgent need for immediate maintenance. Although the failure probability is low, the predicted remaining useful life (RUL) indicates the machine has only about 18 cycles left before failure is expected. This situation reflects a rapidly deteriorating state that requires prompt intervention.
+
+EVIDENCE  
+- Machine type: Compressor  
+- Cycle: 247  
+- Failure probability: 0.0002 (0.02%)  
+- Predicted RUL: 18.41 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+- Trigger reason: STATE_CHANGE  
+- Simulation fault indicated: VIBRATION  
+
+POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault flag indicates vibration issues, which may be a contributing factor to the critical state. This suggests mechanical imbalance, misalignment, or potential bearing wear could be accelerating degradation. However, this is a hypothesis based solely on the simulation fault indicator and not a confirmed root cause.
+
+RECOMMENDED INSPECTION  
+The maintenance team should promptly inspect the compressor's vibration-related components, including bearings, shaft alignment, and any mechanical supports. It is important to review vibration sensor data carefully to identify abnormal patterns. Checking for signs of wear, looseness, or damage is advised to verify the source of the vibration indications.
+
+OPERATOR ACTION  
+As per the system decision, immediate maintenance action must be taken. The operator should prioritize shutting down the compressor safely if possible and initiate a maintenance intervention without delay. Following inspection, appropriate repairs or part replacements should be performed to prevent unexpected failure and reduce machine downtime."
+COMP_003,Compressor,248,VIBRATION,0.0007,20.9,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently in a warning state indicating machine degradation. The failure prediction model shows a low failure probability but a relatively short remaining useful life (RUL) of about 21 cycles, suggesting that maintenance attention should be prioritized soon.
+
+2. EVIDENCE  
+- Failure probability: 0.0007 (0.07%)  
+- Predicted RUL: 20.9 cycles  
+- Overall status: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE (indicating recent change in operating condition or detected parameters)
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Considering the simulation fault type ""VIBRATION,"" there is a hypothesis that increased vibration levels could be associated with mechanical wear, imbalance, or alignment issues within the compressor. However, this is not confirmed and requires verification.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting components related to vibration, such as bearings, shaft alignment, and mounting integrity. Checking for early signs of wear, looseness, or imbalance would help identify potential causes of degradation.
+
+5. OPERATOR ACTION  
+Schedule and conduct a detailed inspection of the compressor with high priority as advised. Monitor vibration levels closely and document any findings related to mechanical condition. Maintain vigilance for any further state changes or escalation of failure probability."
+COMP_003,Compressor,251,VIBRATION,0.0004,19.85,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently in a critical condition as indicated by the system status. Although the failure probability is low at 0.04%, the predicted remaining useful life (RUL) is under 20 cycles, indicating imminent risk of failure. This situation has triggered an urgent escalation and the decision for immediate maintenance.
+
+2. EVIDENCE  
+- Failure probability: 0.0004 (0.04%)  
+- Predicted RUL: 19.85 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+- Simulation fault identified: VIBRATION  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation faults detected relate to vibration anomalies, suggesting potential mechanical issues such as imbalance, misalignment, or bearing wear. These factors could be contributing to the accelerated degradation reflected in the low RUL prediction. However, this is a hypothesis based solely on the simulation fault type and should not be considered a confirmed root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the vibration sources including bearings, shaft alignment, and rotor balance. Checking for signs of mechanical looseness, wear, or damage in these components is recommended to verify the root cause of the vibration anomaly.
+
+5. OPERATOR ACTION  
+Proceed with immediate maintenance as instructed by the system. Prioritize stopping the machine safely if possible, then conduct a detailed inspection of vibration-related components. Address any detected faults promptly to prevent unexpected failure and minimize downtime."
+COMP_003,Compressor,253,VIBRATION,0.8326,12.56,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently in a critical condition with a high probability of imminent failure. The machine’s state has recently changed to indicate a significant degradation in operational integrity, requiring prompt maintenance action.
+
+2. EVIDENCE  
+- Failure probability is 83.26%, indicating a high likelihood of failure.  
+- Predicted Remaining Useful Life (RUL) is approximately 12.56 cycles, suggesting limited remaining operational time before failure.  
+- Overall status and alert level are both labeled CRITICAL.  
+- The maintenance decision is IMMEDIATE MAINTENANCE with an URGENT priority.  
+- The trigger for this event was a state change detected in the machine condition.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Given the simulation fault labeled as ""VIBRATION,"" it is hypothesized that abnormal vibration levels may be contributing to the machine’s degraded condition. This could indicate issues such as imbalance, misalignment, or bearing wear, but this is not confirmed by the data provided.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect components related to vibration generation and transmission, such as bearings, rotor balance, and coupling alignment. Checking for signs of mechanical wear or damage that could cause abnormal vibration is advisable.
+
+5. OPERATOR ACTION  
+Proceed with immediate maintenance as decided. Prioritize securing machine safety and minimizing operational risks by halting or limiting compressor use until the inspection and necessary corrective actions are completed. Follow established safety protocols during the inspection and repair process."
+COMP_003,Compressor,254,VIBRATION,0.5747,9.74,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently in a critical condition, with a significantly elevated risk of failure. The system indicates a state change that triggered this alert, suggesting a rapid deterioration in machine health. Immediate intervention is necessary to prevent failure.
+
+2. EVIDENCE  
+- Failure probability: 57.47%, indicating more than half likelihood of failure imminently.  
+- Predicted remaining useful life (RUL): approximately 9.74 cycles, showing the machine is close to end of service life.  
+- Overall status and alert level: both marked CRITICAL.  
+- Maintenance decision: Immediate maintenance with urgent priority.  
+- Trigger reason: State change observed, likely related to detected vibration fault.  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The detected simulation fault type is ""VIBRATION,"" which may indicate abnormal mechanical issues such as imbalance, misalignment, or bearing wear. This is a hypothesis based on the vibration fault alert and should be confirmed by inspection.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the compressor’s vibration-related components, including bearings, shafts, and mounting structures, to identify any anomalies such as looseness, wear, or damage. Vibration measurement tools should be employed for detailed analysis.
+
+5. OPERATOR ACTION  
+Following the urgent maintenance decision, the operator must immediately schedule and initiate maintenance activities to address the critical condition. Prompt inspection and corrective actions will help prevent unexpected failure and potential downtime."
+TURB_005,Turbine,254,MISALIGNMENT,0.0005,48.61,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The turbine TURB_005 is currently showing signs of degradation that have triggered a warning status. While the predicted probability of failure remains low (0.05%), the Remaining Useful Life (RUL) is estimated at approximately 49 cycles, indicating that the machine may be gradually approaching a critical state. The system has detected a state change consistent with potential misalignment issues.
+
+2. EVIDENCE  
+- Failure probability: 0.0005 (0.05%)  
+- Predicted RUL: 48.61 cycles  
+- Overall status: WARNING  
+- Maintenance priority: HIGH  
+- Maintenance decision: SCHEDULE INSPECTION  
+- Trigger reason: STATE_CHANGE  
+- Simulation fault noted: MISALIGNMENT  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the event data, the likely contributing factor could be misalignment within the turbine components, as suggested by the simulation fault tagged ""MISALIGNMENT."" This is a hypothesis aligned with state changes in machine performance and increased degradation, but it is not a confirmed root cause at this time.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should prioritize inspection for possible misalignment in the turbine assembly, including shaft alignment and bearing positioning. The team should verify component clearances and check for any mechanical wear or mounting issues that could be affecting turbine alignment.
+
+5. OPERATOR ACTION  
+Following the system’s high-priority maintenance decision, schedule and conduct a thorough inspection of TURB_005 at the earliest opportunity. Document findings and conditions related to alignment and overall degradation. Continue to monitor the machine status closely, adhering to the warning alert, and prepare for any necessary corrective maintenance based on inspection outcomes."
+COMP_003,Compressor,255,VIBRATION,0.9918,9.39,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The compressor COMP_003 is currently in a critical condition with a very high likelihood of imminent failure. The system has detected a significant state change indicating severe degradation, necessitating urgent attention.
+
+2. EVIDENCE  
+- Failure probability is extremely high at 99.18%.  
+- Predicted remaining useful life (RUL) is approximately 9.39 cycles, indicating failure is imminent.  
+- Overall status and alert level are both marked CRITICAL.  
+- Maintenance priority is URGENT with a decision for IMMEDIATE MAINTENANCE.  
+- The triggering factor is noted as a state change with a simulation fault tagged as ""VIBRATION"".
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault labeled ""VIBRATION,"" excessive or abnormal vibration could be a contributing factor to the critical condition. This is a hypothesis inferred from the fault classification in the event data and not a confirmed root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should immediately inspect the compressor for signs of mechanical looseness, imbalance, bearing wear, or any other sources of abnormal vibration. Checking vibration sensors and related mechanical components is advised to verify the cause of the detected fault.
+
+5. OPERATOR ACTION  
+Follow the maintenance decision for immediate action. Initiate urgent shutdown and arrange for immediate maintenance intervention on COMP_003. Take necessary safety precautions during inspection and repair to prevent imminent failure and potential damage."
+TURB_005,Turbine,259,MISALIGNMENT,0.0007,49.96,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The turbine TURB_005 currently shows signs of machine degradation. The system has detected a state change that triggered a warning status, indicating the machine condition is deteriorating but not yet critical.
+
+2. EVIDENCE  
+The failure prediction model estimates a low failure probability of 0.07% at cycle 259, with a predicted remaining useful life of approximately 50 cycles. The overall status is WARNING, and the maintenance priority is HIGH. Consequently, the recommended maintenance decision is to schedule an inspection.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Although the simulated fault is identified as MISALIGNMENT, this remains a hypothesis suggested by the Smart Twin simulation. The low failure probability suggests that any misalignment or degradation is currently minor but may worsen if unaddressed.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the turbine’s alignment and mechanical components to verify if any misalignment or early signs of wear are present. Checking for vibration anomalies, shaft positioning, and bearing conditions would be practical starting points.
+
+5. OPERATOR ACTION  
+Following the maintenance decision, schedule an inspection promptly to assess the turbine condition in detail. Monitor the machine closely until the inspection is completed and take corrective maintenance actions as needed based on actual inspection findings."
+PUMP_002,Hydraulic_Pump,271,OVERHEATING,0.2395,17.11,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic pump PUMP_002 is currently in a critical condition, as indicated by the system status and alert level. The failure probability is elevated, and the remaining useful life (RUL) prediction suggests the pump may fail within approximately 17 cycles. This situation has triggered a state change, prompting urgent attention.
+
+2. EVIDENCE  
+- Failure probability: 23.95%  
+- Predicted RUL: 17.11 cycles  
+- Overall status: CRITICAL  
+- Alert level: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Simulation fault: OVERHEATING  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation indicates ""OVERHEATING"" as a possible fault mode. While this is a predictive model outcome and not a confirmed diagnosis, it suggests that elevated temperatures within the pump or its components may be contributing to the declining condition. Other factors such as lubrication issues, excessive load, or cooling system performance could be relevant but are not indicated by the event data.
+
+4. RECOMMENDED INSPECTION  
+Maintenance personnel should promptly inspect the pump for signs of overheating, including checking temperature measurements if available, examining cooling pathways, and inspecting mechanical components for heat-related wear or damage. Verification of lubrication condition and system pressures should also be considered to understand contributing factors.
+
+5. OPERATOR ACTION  
+Following the critical alert and maintenance decision, initiate immediate maintenance procedures for PUMP_002. This includes scheduling a detailed inspection and any necessary repairs or part replacements to address potential overheating and prevent imminent failure. Ensure all safety protocols are observed during intervention."
+PUMP_002,Hydraulic_Pump,272,OVERHEATING,0.4769,17.15,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic pump PUMP_002 is currently in a critical condition, indicating a high risk of failure soon. The system has detected a state change that significantly increases the urgency for maintenance.
+
+2. EVIDENCE  
+- Failure probability is 47.69%, indicating nearly a 50% chance of failure imminently.  
+- The predicted Remaining Useful Life (RUL) is approximately 17 cycles, a very short window before expected failure.  
+- The overall status and alert level are marked as CRITICAL.  
+- The maintenance decision is IMMEDIATE MAINTENANCE with URGENT priority.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation has identified ""OVERHEATING"" as the fault condition triggering this alert. While this is a predictive simulation and not a confirmed diagnosis, it suggests that excessive temperature may be stressing the pump components, potentially leading to accelerated wear or failure.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should promptly inspect the pump’s thermal management system, including cooling mechanisms and temperature sensors, to verify if overheating is occurring. Additionally, checking for signs of lubricant degradation or blockage that could cause heat buildup is advisable.
+
+5. OPERATOR ACTION  
+Proceed with immediate maintenance as recommended by the system. Prioritize shutdown or operational load reduction if feasible to prevent damage while preparing for intervention. Ensure thorough inspection and corrective actions focused on resolving potential overheating issues to restore safe operation."
+PUMP_002,Hydraulic_Pump,273,OVERHEATING,0.1413,19.45,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic pump PUMP_002 is currently in a critical condition as indicated by the system. The failure probability has reached 14.13%, and the predicted remaining useful life (RUL) is approximately 19.45 operational cycles. This combination of metrics reflects an urgent risk of failure, triggering an immediate maintenance decision.
+
+2. EVIDENCE  
+- Failure probability: 14.13%  
+- Predicted RUL: 19.45 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+- Simulation fault: OVERHEATING  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault indicates an overheating condition. While this is a modeled hypothesis rather than a confirmed root cause, overheating could be related to issues such as insufficient cooling, internal friction, or fluid contamination. These factors might be contributing to accelerated wear or imminent failure, as suggested by the reduced RUL.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting the hydraulic pump’s thermal management aspects. This includes checking the cooling system effectiveness, verifying fluid levels and quality, inspecting for internal friction or mechanical damage, and monitoring any heat buildup in components.
+
+5. OPERATOR ACTION  
+Following the current maintenance decision, the operator should initiate immediate maintenance procedures for PUMP_002 to prevent failure. This includes scheduling a shutdown if needed, performing the recommended inspections, and addressing any identified issues related to overheating before resuming operation. It is critical to act promptly given the urgent priority and limited predicted remaining life."
+PUMP_002,Hydraulic_Pump,274,OVERHEATING,0.7442,13.36,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The hydraulic pump PUMP_002 is currently in a critical condition, with a high likelihood of failure soon. The system predicts an overheating fault scenario, indicating the machine is at risk of imminent malfunction if not addressed promptly.
+
+2. EVIDENCE  
+- Failure probability is 74.42%, indicating a high chance of failure.  
+- Predicted remaining useful life (RUL) is approximately 13.36 cycles, a very short timeframe before failure is expected.  
+- The overall status is marked as CRITICAL, triggering an urgent maintenance priority.  
+- The maintenance decision is IMMEDIATE MAINTENANCE, reflecting the seriousness of the condition.  
+- The alert level is CRITICAL, and an alert message has been issued to ensure rapid response.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation detecting overheating, a possible contributing factor could be excessive thermal stress within the pump or related components such as bearings, seals, or hydraulic fluid overheating. This is a hypothesis inferred from the fault simulation and not a confirmed root cause.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the pump’s thermal management systems, including coolant flow, temperature sensors, seals, and lubrication conditions. Attention should be given to components that could cause or result from overheating, such as bearings or hydraulic fluid condition.
+
+5. OPERATOR ACTION  
+In line with the urgent maintenance decision, the operator should cease normal operation and initiate immediate maintenance procedures. Rapid inspection and corrective action are necessary to prevent failure and potential damage, as indicated by the critical alert."
+TURB_005,Turbine,281,MISALIGNMENT,0.6913,19.87,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The turbine TURB_005 is in a critical condition, with a high likelihood of failure predicted soon. The system indicates an urgent need for immediate maintenance to prevent an imminent breakdown.
+
+2. EVIDENCE  
+- Failure probability is 69.13%, indicating a strong risk of failure.  
+- Predicted remaining useful life (RUL) is approximately 19.87 cycles, highlighting a short window before failure.  
+- Overall status and alert level are marked as CRITICAL.  
+- Maintenance priority is URGENT and the decision is IMMEDIATE MAINTENANCE, triggered by a state change.  
+- The simulated fault condition is MISALIGNMENT.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulated fault suggests that mechanical misalignment could be contributing to the critical condition. Misalignment in turbine components may cause excessive vibration or stress, potentially accelerating degradation, but this remains a hypothesis based on the simulation data.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should inspect the turbine’s shaft alignment and related mechanical couplings closely. Check for signs of wear, abnormal vibration, or looseness that might indicate or cause misalignment.
+
+5. OPERATOR ACTION  
+Following the critical alert and urgent maintenance decision, initiate immediate maintenance procedures. Prioritize aligning and securing turbine components to prevent further damage and reduce the failure risk as indicated by the predictive models."
+TURB_005,Turbine,282,MISALIGNMENT,0.2237,19.78,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The turbine TURB_005 is currently in a critical condition indicated by the system's alert and overall status. The failure prediction model estimates a 22.37% probability of failure with a remaining useful life (RUL) of approximately 20 cycles. This suggests the machine is approaching a high-risk state that requires urgent attention.
+
+2. EVIDENCE  
+- Failure probability: 22.37%  
+- Predicted RUL: 19.78 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Simulation fault: MISALIGNMENT (used in the predictive model)  
+- Alert level: CRITICAL, alert triggered on state change
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+The simulation fault indicates a misalignment condition as a likely cause impacting machine health. While this is a modeled hypothesis and not a confirmed physical root cause, misalignment in turbines can lead to increased wear, vibration, and potential damage to rotating components.
+
+4. RECOMMENDED INSPECTION  
+Inspect the turbine for signs of mechanical misalignment, focusing on shaft alignment, coupling integrity, and bearing conditions. Verify alignment tolerances and check for any unusual vibrations or noise patterns associated with misaligned components.
+
+5. OPERATOR ACTION  
+Act immediately to perform maintenance as directed by the decision. Prioritize the alignment inspection and corrective adjustments to mitigate failure risk. Follow all safety protocols during inspection and repair to avoid unplanned downtime or further damage."
+TURB_005,Turbine,283,MISALIGNMENT,0.0416,20.23,WARNING,HIGH,SCHEDULE INSPECTION,WARNING,True,"1. ASSESSMENT  
+The turbine TURB_005 is currently exhibiting signs of degradation with an elevated failure probability. The overall system status is warning, indicating that although an immediate failure is not predicted, the machine condition is deteriorating and requires attention soon.
+
+2. EVIDENCE  
+- Failure probability is 4.16%, suggesting moderate risk of failure.  
+- Predicted remaining useful life (RUL) is approximately 20.23 cycles, indicating limited operational time before significant issues may occur.  
+- The alert level is WARNING, triggered by a change in the machine state.  
+- Maintenance priority is HIGH with a decision to SCHEDULE INSPECTION due to detected degradation.  
+- Simulation fault indicates potential MISALIGNMENT but this remains a hypothesis.
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the provided simulation fault, one possible contributing factor is mechanical misalignment within the turbine components. This could cause abnormal wear or stress, leading to increased failure risk. However, this remains a predictive hypothesis and requires verification.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus on inspecting for signs of mechanical misalignment, such as uneven wear patterns, vibration anomalies, or component positioning. Additional checks on rotating parts and alignment measurements are advisable to confirm or rule out this hypothesis.
+
+5. OPERATOR ACTION  
+Following the existing decision, schedule the inspection promptly to assess the turbine's condition thoroughly. Ensure that findings related to alignment and overall mechanical integrity are documented to support informed maintenance planning. Continue monitoring machine status until the inspection is completed."
+TURB_005,Turbine,284,MISALIGNMENT,0.9917,15.33,CRITICAL,URGENT,IMMEDIATE MAINTENANCE,CRITICAL,True,"1. ASSESSMENT  
+The turbine TURB_005 is currently in a critical condition with a very high likelihood of imminent failure. The system predicts failure with 99.17% probability and estimates that the remaining useful life (RUL) is approximately 15 cycles. This indicates that without intervention, the machine is expected to fail very soon.
+
+2. EVIDENCE  
+- Failure probability: 0.9917 (99.17%)  
+- Predicted RUL: 15.33 cycles  
+- Overall status: CRITICAL  
+- Maintenance priority: URGENT  
+- Maintenance decision: IMMEDIATE MAINTENANCE  
+- Alert level: CRITICAL  
+- Simulation fault indicated: MISALIGNMENT  
+
+3. POSSIBLE CONTRIBUTING FACTORS  
+Based on the simulation fault labeled as MISALIGNMENT, one hypothesis is that mechanical misalignment in the turbine’s rotating components could be contributing to the deteriorating condition and increased failure risk. Misalignment can cause excessive vibrations, uneven wear, and stress on components, accelerating failure.
+
+4. RECOMMENDED INSPECTION  
+The maintenance team should focus inspection efforts on alignment of shafts, bearings, and couplings within the turbine. Check for abnormal vibration patterns, wear marks, or looseness in rotating assemblies that could confirm or further clarify the misalignment hypothesis.
+
+5. OPERATOR ACTION  
+Following the urgent maintenance decision, immediate action is required to schedule and perform maintenance procedures without delay. Prioritize securing the machine, conducting recommended inspections, and carrying out alignment corrections or repairs to prevent imminent failure as indicated by the critical alert."

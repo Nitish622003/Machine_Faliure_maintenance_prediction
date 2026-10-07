@@ -1,0 +1,3 @@
+# UI additions for local dashboard
+streamlit
+plotly

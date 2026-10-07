@@ -1,0 +1,2 @@
+overall_model_status,failure_model_f1,rul_mae,rul_rmse,time_series_average_mae,time_series_average_rmse,feature_drift_count,prediction_drift_detected,retraining_recommended
+DEGRADING,,,,1.4405376429104368,1.6646047217779463,0,False,True
